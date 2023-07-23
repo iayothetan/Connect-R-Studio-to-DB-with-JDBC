@@ -1,0 +1,16 @@
+default:
+  vertica:
+    driverClass: "com.vertica.jdbc.Driver"
+    classPath: "C:\\JDBC drivers\\vertica-jdbc-12.0.0-0.jar"
+    server: "jdbc:vertica://your_vertica_server:5433/database_name"
+    username: "user_name"
+    password: "password"
+
+  hive:
+    commonDriver: "C:\\JDBC drivers\\hadoop-common-3.3.4.jar"
+    standaloneDriver: "C:\\JDBC drivers\\hive-jdbc-2.1.1-standalone.jar"
+    driverClass: "org.apache.hive.jdbc.HiveDriver"
+    classPath: "C:\\JDBC drivers\\hive-jdbc-2.1.1-standalone.jar"
+    server: "jdbc:hive2://your_hive_server:10000/database_name"
+    username: "user_name"
+    password: "password"
