@@ -33,3 +33,4 @@ df_hive <- dbGetQuery(hive,
                       "select *
                        from my_db_hive
                        limit 100")
+
